@@ -1,0 +1,15 @@
+{
+    "name": "steph/composer_quest",
+    "autoload": {
+        "psr-4": {
+            "Steph\\ComposerQuest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "StyMey",
+            "email": "stephanie2510@gmail.com"
+        }
+    ],
+    "require": {}
+}
