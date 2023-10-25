@@ -1,5 +1,8 @@
 <?php
 
-require 'src/Hello.php';
+require 'vendor/autoload.php';
 
-use Src\Hello;
+use App\Hello;
+
+$Hello = new Hello();
+echo $Hello->talk();
